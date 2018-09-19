@@ -9,13 +9,6 @@ var ingredient6 = "garlic"
 
 var chocolateBars = ["snickers", "hundredgrand", "kitkat", "skittles"];
 
-//function addElementToBeginningOfArray(array, element){
-// var array = [1];
-// array.unshift(element)
-// 
-// 
-//}
-
 function addElementToBeginningOfArray(chocolateBars, candyString){
   return [candyString, ...chocolateBars];
 }
@@ -23,21 +16,11 @@ function addElementToBeginningOfArray(chocolateBars, candyString){
 function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString)
  {
    chocolateBars.unshift(candyString);
-   return chocolateBars
-   }
-   
-   function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
-  chocolateBars.unshift(candyString);
-  return chocolateBars;
-}
- 
- 
- function addElementToEndOfArray(array, element)
- {
- 
+   return chocolateBars;
  }
  
- function destructivelyAddElementToEndOfArray(array, element)
-   {
-     
-   }
+ 
+   
+   
+   
+  

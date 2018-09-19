@@ -16,6 +16,9 @@ function addElementToBeginningOfArray(array, element){
  
 }
 
+function addElementToBeginningOfArray(chocolateBars, candyString){
+  return [candyString, ...chocolateBars];
+
 function destructivelyAddElementToBeginningOfArray(array, element)
  {
    var array = [];

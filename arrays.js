@@ -9,12 +9,12 @@ var ingredient6 = "garlic"
 
 var chocolateBars = ["snickers", "hundredgrand", "kitkat", "skittles"];
 
-function addElementToBeginningOfArray(array, element){
- var array = [1];
- array.unshift(element)
- 
- 
-}
+//function addElementToBeginningOfArray(array, element){
+// var array = [1];
+// array.unshift(element)
+// 
+// 
+//}
 
 function addElementToBeginningOfArray(chocolateBars, candyString){
   return [candyString, ...chocolateBars];

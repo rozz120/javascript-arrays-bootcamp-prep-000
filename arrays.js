@@ -8,3 +8,7 @@ var ingredient6 = "garlic"
 
 
 var chocolateBars = ["snickers", "hundredgrand", "kitkat", "skittles"];
+
+function addElementToBeginningOfArray()
+
+function 

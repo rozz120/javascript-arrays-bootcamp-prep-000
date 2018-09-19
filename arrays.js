@@ -34,6 +34,11 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString)
  {
    return array[index];
  }
+ 
+ function destructivelyRemoveElementFromBeginningOfArray(array)
+ {
+   return array.shift();
+ }
    
    
    

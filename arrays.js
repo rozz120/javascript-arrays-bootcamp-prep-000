@@ -9,13 +9,13 @@ var ingredient6 = "garlic"
 
 var chocolateBars = ["snickers", "hundredgrand", "kitkat", "skittles"];
 
-function addElementToBeginningOfArray(arrayName, elementName){
+function addElementToBeginningOfArray(array, element){
  var arrayName = new Array();
  var arrayName =[...arrayName, elementName]
  return arrayName;
 }
 
-function destructivelyAddElementToBeginningOfArray(arrayName, elementName)
+function destructivelyAddElementToBeginningOfArray(array, element)
  {
    var arrayName = new Array();
   arrayName.unshift(elementName);

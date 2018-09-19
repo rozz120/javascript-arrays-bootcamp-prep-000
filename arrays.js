@@ -37,7 +37,8 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString)
  
  function destructivelyRemoveElementFromBeginningOfArray(chocolateBars)
  {
-   return chocolateBars.shift();
+   chocolateBars.shift();
+   return chocolateBars;
  }
  
 function removeElementFromBeginningOfArray(array)
@@ -47,7 +48,8 @@ function removeElementFromBeginningOfArray(array)
    
  function destructivelyRemoveElementFromEndOfArray(chocolateBars)
  {
-  return chocolateBars.pop();
+  chocolateBars.pop();
+  return chocolateBars;
  }
    
   function removeElementFromEndOfArray(array)

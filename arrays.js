@@ -20,12 +20,10 @@ function addElementToBeginningOfArray(chocolateBars, candyString){
   return [candyString, ...chocolateBars];
 }
 
-function destructivelyAddElementToBeginningOfArray(array, element)
+function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString)
  {
-   var array = [];
-  array.unshift(element);
-  
- }
+   return chocolateBars.unshift(candyString);
+   }
  
  
  function addElementToEndOfArray(array, element)
